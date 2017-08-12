@@ -38,7 +38,7 @@
     //return `2` Cuz letter `o` appear twice.
 ```
 - Activity
-```
+```kotlin
     toast("Message")         //default make a Toast.LENGTH_SHORT
     toast("Message",false)   //make a Toast.LENGTH_LONG
     // Other params
@@ -49,7 +49,7 @@
                       yOffset: Int = 0)
 ```
 - Log
-```
+```kotlin
     logE()
     logTagE(TAG:String)
 
@@ -62,14 +62,14 @@
     logTagI(),logTagD(),logTagV()...
 ```
 - View visible
-```
+```kotlin
     view.visible=false
     //all right.I forget to mind the status `GONE`
 ```
 - View.setOnClickListener
-```
+```kotlin
     btn+={
         //todo
     }
 ```
-~~see more in [samples]()     (has not been finished yet)~~
+~~see more in [samples](https://github.com/zxj5470/KotlinExt/blob/master/readme.md)     (has not been finished yet)~~
