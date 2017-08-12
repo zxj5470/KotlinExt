@@ -1,6 +1,6 @@
 
 # Kotlin Extensions
-[![building](https://img.shields.io/travis/USER/REPO.svg)]()
+[![building](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 [![](https://jitpack.io/v/zxj5470/KotlinExt.svg)](https://jitpack.io/#zxj5470/KotlinExt)
 ## Guide
 - Add it in your root build.gradle at the end of repositories:
@@ -12,7 +12,8 @@
         }
     }
 ````
-- Step 2. Add the dependency
+- Step 2. Add the dependency    (Look at the number of icon)
+[![](https://jitpack.io/v/zxj5470/KotlinExt.svg)](https://jitpack.io/#zxj5470/KotlinExt)
 ````gradle
     dependencies {
             compile 'com.github.zxj5470:KotlinExt:0.1.3'
