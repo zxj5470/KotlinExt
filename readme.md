@@ -20,7 +20,7 @@
     }
 ````
 
-## dependencies
+## Dependencies
 ```gradle
     //build.gradle (Project)
     ext.kotlin_version = '1.1.2-3'
