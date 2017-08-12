@@ -15,7 +15,7 @@
 - Step 2. Add the dependency
 ````
     dependencies {
-            compile 'com.github.zxj5470:KotlinExt:0.1.2'
+            compile 'com.github.zxj5470:KotlinExt:0.1.3'
     }
 ````
 
