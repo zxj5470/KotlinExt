@@ -4,7 +4,7 @@
 [![](https://jitpack.io/v/zxj5470/KotlinExt.svg)](https://jitpack.io/#zxj5470/KotlinExt)
 ## Guide
 - Add it in your root build.gradle at the end of repositories:
-````
+````gradle
     allprojects {
         repositories {
             ...
@@ -13,15 +13,14 @@
     }
 ````
 - Step 2. Add the dependency
-````
+````gradle
     dependencies {
             compile 'com.github.zxj5470:KotlinExt:0.1.3'
     }
 ````
 
 ## dependencies
-```
-
+```gradle
     //build.gradle (Project)
     ext.kotlin_version = '1.1.2-3'
     //build.gradle (Module)
