@@ -1,5 +1,5 @@
 
-# Kotlin Extensions
+# Kotlin Extensions in Android
 [![building](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 [![](https://jitpack.io/v/zxj5470/KotlinExt.svg)](https://jitpack.io/#zxj5470/KotlinExt)
 ## Guide
