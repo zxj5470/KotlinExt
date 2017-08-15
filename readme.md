@@ -50,16 +50,27 @@
 ```
 - Log
 ```kotlin
-    logE()
-    logTagE(TAG:String)
-
-    @param TAG: the class name of Any or by yourself
-    @param content:the content(value) of Any by its `toString()`
-    //Log.e(TAG,content)
-
+    Any.logE()
+    Any.logE(TAG:String)
+    /**
+     *
+     * @param TAG: the class name of Any or by yourself
+     * @param content: the content(value) of Any by its `toString()`
+     * it equals to ->
+     * Log.e(TAG,content)
+     */
     //you can use mathods as below
     logI(),logD(),logV()...
-    logTagI(),logTagD(),logTagV()...
+
+
+    /**
+     * @Deprecated
+     * @Deleted
+     * @SinceVersion 0.1.4
+     * Now just use Any.logE(TAG:String) instead of them
+     */
+    logTagI(TAG),logTagD(TAG),logTagV(TAG)...
+
 ```
 - View visible
 ```kotlin
