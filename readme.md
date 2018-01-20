@@ -22,11 +22,16 @@
 
 ## Dependencies
 ```gradle
+    //build tools
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    //API 26
     //build.gradle (Project)
     ext.kotlin_version = '1.1.2-3'
     //build.gradle (Module)
     minSdkVersion 14
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    compile "com.android.support:appcompat-v7:26.1.0"
 ```
 ## Usage
 - String
