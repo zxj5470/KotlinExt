@@ -16,7 +16,7 @@
 [![](https://jitpack.io/v/zxj5470/KotlinExt.svg)](https://jitpack.io/#zxj5470/KotlinExt)
 ````gradle
     dependencies {
-            compile 'com.github.zxj5470:KotlinExt:0.1.5'
+        compile 'com.github.zxj5470:KotlinExt:0.1.5'
     }
 ````
 
